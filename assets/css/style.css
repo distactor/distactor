@@ -564,7 +564,7 @@
   
   .skills-content { margin-bottom: 50px; }
   
-  .skills-toggle {
+    .skills-toggle {
     background: var(--bg-secondary);
     position: relative;
     width: max-content;
@@ -583,7 +583,7 @@
     top: 5px;
     left: 5px;
     bottom: 5px;
-    width: 150px;
+    width: 93px;
     background: gray;
     border-radius: 100px;
     transition: var(--transition-1);
@@ -591,9 +591,10 @@
   }
   
   .skills-toggle.active::before {
-    left: 130px;
-    width: 150px;
+    left: 98px;
+    width: 94px;
   }
+  
   
   .toggle-btn {
     color: var(--color-primary);
